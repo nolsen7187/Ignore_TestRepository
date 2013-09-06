@@ -1,0 +1,71 @@
+﻿@model MVC_EF_Tutorial1.Models.Contact
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Contact</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FirstName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FirstName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MiddleName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MiddleName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Address)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.city)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.city)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.state)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.state)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.zip)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.zip)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.country)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.country)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
