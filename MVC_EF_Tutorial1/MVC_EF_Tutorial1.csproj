@@ -264,13 +264,18 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Web.config" />
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
+    <Content Include="..\..\..\..\GitHub\MSSE680\Newtest\MVC_EF_Tutorial1\Web.config">
+      <Link>Web.config</Link>
+      <SubType>Designer</SubType>
     </Content>
-    <Content Include="Web.Release.config">
+    <None Include="..\..\..\..\GitHub\MSSE680\Newtest\MVC_EF_Tutorial1\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
-    </Content>
+      <Link>Web.Debug.config</Link>
+    </None>
+    <None Include="..\..\..\..\GitHub\MSSE680\Newtest\MVC_EF_Tutorial1\Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <Link>Web.Release.config</Link>
+    </None>
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Images\accent.png" />
