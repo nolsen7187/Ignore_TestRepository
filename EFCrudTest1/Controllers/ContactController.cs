@@ -13,7 +13,7 @@ namespace EFCrudTest1.Controllers
     {
         private DBContact db = new DBContact();
 
-        //tree
+        //tree 2
         // GET: /Contact/
 
         public ActionResult Index()
